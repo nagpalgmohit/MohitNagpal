@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mohit Nagpal</title>
+        <link rel="icon" type="image/x-icon" href="images/00.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="page_wrapper" style="min-height: 100%;">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home" >Home</a></li>
+                <li><a href="#about" data-toggle="tooltip" data-placement="bottom" title="About">About</a></li>
+                <li><a href="#ed" data-toggle="tooltip" data-placement="bottom" title="Education Details">Education Details</a></li>
+                <li><a href="#q" data-toggle="tooltip" data-placement="bottom" title="Queries">Queries</a></li>
+                <li><a href="#c" data-toggle="tooltip" data-placement="bottom" title="Contact">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="images/bg.jpg" alt="Los Angeles" style="width:100%; height:10%;">
+                  <div class="carousel-caption">
+                    <h1 style="font-size: 1in;color:black;font-family: Arial, Helvetica, sans-serif">Hi, I'm Mohit Nagpal</h1>
+                    <!--<p>LA is always so much fun!</p>-->
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="images/bg.jpg" alt="Chicago" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h1 style="font-size: 1in;color:black;font-family: Arial, Helvetica, sans-serif">Welcome to my Portfolio!!</h1>
+                    <!--<h3>Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in OOP, automation and debugging. Always looking to expand my horizon.</h3>-->
+                    <!--<p>Thank you, Chicago!</p>-->
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <br><br>
+
+            <div class = "container" id="about">
+                <h2>About</h2>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img class="img-responsive" src="images/00.jpg" width="300" height="200">
+                </div>
+                <div class = "col-lg-8 col-md-8 col-sm-12 desc">
+                    <p style="text-align: justify;font-size: 0.2in;">Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. Skilled in OOP, automation and debugging. Always looking to expand my horizon.</p>
+                </div>
+            </div>
+            <br><br>
+
+            
+            <div class ="container" id="ed">
+                <h2>Education Details</h2>       
+                <table class="table table-bordered">
+                  <thead>
+                    <tr style="text-align: justify;font-size: 0.2in;">
+                      <th>University</th>
+                      <th>Degree</th>
+                      <th>Location</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="text-align: justify;font-size: 0.2in;">
+                      <td>University of Mumbai</td>
+                      <td>Bachelors</td>
+                      <td>Mumbai, India</td>
+                    </tr>
+                    <tr style="text-align: justify;font-size: 0.2in;">
+                        <td>Northeastern University</td>
+                        <td>Masters</td>
+                        <td>Boston, USA</td>
+                      </tr>
+                  </tbody>
+                </table>
+                </div>
+              </div>
+
+              <div class="container" id="q">
+                <h2>Queries</h2>
+                <form class="form-horizontal" action="/action_page.php">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd" style="text-align: justify;font-size: 0.2in;">Question:</label>
+                    <div class="col-sm-10">          
+                      <input type="text-area" class="form-control" id="pwd" placeholder="Enter your question" name="pwd">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="email" style="text-align: justify;font-size: 0.2in;">Email:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                  </div>
+                  <div class="form-group">        
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <br><br>
+
+              <div class = "container" id="c">
+                <h2>Contact</h2>
+                <p style="text-align: justify;font-size: 0.2in;"><span class="glyphicon glyphicon-envelope"></span> nagpalgmohit@gmail.com</p>
+                <p style="text-align: justify;font-size: 0.2in;"><span class="glyphicon glyphicon-phone"></span> +18578695584</p>
+              </div>
+            </div>
+              <footer class="bg-light text-center text-white" style="padding :1%; align-content: center;background-color: black;">
+                <p style="color: white;"><small>Copyright &copy; 2022 Mohit Nagpal. All Rights Reserved.</small></p>
+                
+              </footer>
+            
+
+            <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();   
+                });
+            </script>
+          
+    </body>
+</html>
